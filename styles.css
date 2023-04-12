@@ -39,4 +39,12 @@
   .nav-link {
     color: #fff !important;
   }
+
+  .hero-section {
+    height: 90vh !important;
+    background-color: #1c1a19;
+    background-image: url(./Assets/images/dbg.svg);
+    background-size: 100%;
+    background-position-x: 30%;
+  }
 }
