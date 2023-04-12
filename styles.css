@@ -1,0 +1,14 @@
+.navbar {
+  background-color: #3c3a39;
+}
+
+.navbar-brand {
+  font-weight: 500;
+  font-size: large;
+  font-family: "Roboto", sans-serif;
+  color: #fff !important;
+}
+
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
