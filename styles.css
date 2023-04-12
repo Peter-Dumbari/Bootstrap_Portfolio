@@ -1,14 +1,41 @@
+
 .navbar {
-  background-color: #3c3a39;
-}
+        background-color: #3c3a39;
+        padding: 20px !important;
+      }
 
-.navbar-brand {
-  font-weight: 500;
-  font-size: large;
-  font-family: "Roboto", sans-serif;
-  color: #fff !important;
-}
-
-.navbar-collapse {
-  flex-grow: 0 !important;
+      .navbar-brand {
+        font-weight: 500;
+        font-size: large;
+        font-family: "Roboto", sans-serif;
+        color: #fff !important;
+      }
+      
+@media screen and (min-width: 763px) {
+    .navbar {
+        background-color: #3c3a39;
+        padding: 20px !important;
+      }
+      
+      .navbar-brand {
+        font-weight: 500;
+        font-size: large;
+        font-family: "Roboto", sans-serif;
+        color: #fff !important;
+      }
+      
+      .navbar-collapse {
+        flex-grow: 0 !important;
+      }
+      
+      .container-fluid{
+          padding: 0 8rem 0 8rem !important;
+      }
+      
+      .navbar-nav{
+          width: 300px;
+      }
+      .nav-link{
+          color: #fff !important;
+      }
 }
