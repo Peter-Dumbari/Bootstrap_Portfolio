@@ -120,6 +120,7 @@
     }
     .card:hover .card-body{
           background: linear-gradient(#26262600, #262626e5);
+          visibility: visible !important;
   
     }
 }
